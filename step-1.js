@@ -13,6 +13,7 @@ function getAndPrintHTMLChunks () {
     response.setEncoding('utf8');
 
     //invoked when data is received
+    //logs each data received in a new line
     response.on('data', function (data) {
       console.log('Chunk of data received. Data: ', data + "\n");
     });
