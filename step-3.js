@@ -1,4 +1,6 @@
 function getAndPrintHTML (options) {
+  //printing with parameters
+  //host and path point to requestOptions Object so we can reuse this code
   var host = options[host];
   var path = options[path];
   var https = require('https');
